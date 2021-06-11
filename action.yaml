@@ -1,0 +1,22 @@
+name: 'Database dropper'
+description: 'Drop the specified database'
+branding:
+  icon: 'anchor'
+  color: 'orange'
+inputs:
+  database_password:
+    description: 'User password'
+    required: true
+  database_name:
+    description: 'Name of database to drop'
+    required: true
+  database_host:
+    description: 'Host of your DB server. (Default: localhost)'
+    required: false
+  database_user:
+    description: 'Database user with right permissions. (Default: root)'
+    required: false
+
+runs:
+  using: 'node15'
+  main: 'src/index.js'

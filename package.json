@@ -1,0 +1,23 @@
+{
+  "name": "database-dropper",
+  "version": "1.0.0",
+  "description": "Github Actions for drop databases",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubenglicky/database-dropper.git"
+  },
+  "author": "Jakub Englický",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakubenglicky/database-dropper/issues"
+  },
+  "homepage": "https://github.com/jakubenglicky/database-dropper#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "mysql": "^2.18.1"
+  }
+}
